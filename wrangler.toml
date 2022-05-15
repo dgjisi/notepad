@@ -3,11 +3,11 @@ main = "src/index.js"
 compatibility_date = "2022-05-13"
 
 kv_namespaces = [
-  { binding = "ccd", id = "de9b4308454247fdbd2ce1d361495364", preview_id = "01083e57f68046079a62015c3ea4a145" }
+  { binding = "NOTES", id = "de9b4308454247fdbd2ce1d361495364", preview_id = "01083e57f68046079a62015c3ea4a145" }
 ]
 
 # Run `wrangler publish --env production` when happy
 [env.production]
 kv_namespaces = [
-    { binding = "ccd", id = "de9b4308454247fdbd2ce1d361495364" }
+    { binding = "NOTES", id = "de9b4308454247fdbd2ce1d361495364" }
 ]
